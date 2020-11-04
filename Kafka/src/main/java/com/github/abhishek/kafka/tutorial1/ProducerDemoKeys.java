@@ -45,7 +45,7 @@ public class ProducerDemoKeys {
                     //executes when a record is successfully sent or when exception occurs
                     if (e == null) {
                         //record was successfully sent
-                        logger.info("Recieved new metadata. \n" +
+                        logger.info("Received new metadata. \n" +
                                 "Topic:  " + recordMetadata.topic() + "\n" +
                                 "Partition:  " + recordMetadata.partition() + "\n" +
                                 "Offset:  " + recordMetadata.offset() + "\n" +
